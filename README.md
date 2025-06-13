@@ -21,3 +21,10 @@ AI 모듈 레포지토리입니다
 - 2 - 여권 발급: 여권 발급하기
 - 3 - 직원 호출: 직원 부르기
 - 4 - 시작화면: 처음으로 돌아가기
+
+## 📚 model (의도 분류 모델 학습)
+- intent_dataset.csv → 학습용 데이터 (text, intent 컬럼)
+- TfidfVectorizer → 텍스트 데이터 벡터화 (TF-IDF 방식)
+- LogisticRegression() → 로지스틱 회귀를 사용하여 의도 분류 모델 학습
+- train_test_split → 훈련/테스트 데이터 분리 (80:20)
+- 성능 평가 → 직접 텍스트 입력하여 예측 확인 + 혼동행렬 시각화
