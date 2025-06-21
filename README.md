@@ -120,7 +120,7 @@ npm run dev
 ## 3. 프로젝트 구조
 
 ```
-kiosk-ai-voice/
+voice4seniors/
 ├── ai_module/                # AI 모델 및 처리 로직
 │   ├── intent_model.pkl      # 의도 분류 모델
 │   ├── vectorizer.pkl        # 텍스트 벡터화 모델
